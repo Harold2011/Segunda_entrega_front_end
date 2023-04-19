@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #CC0000;
+    height: 100px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 10px 400px;
+}
+.logo{
+    height: 80px;
+}
+nav ul{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+li a.active, li a:hover{
+    background: #aa0000;
+    transition: .5s;
+}
+div{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 45%;
+    font-weight: 200px, 100px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    font-family: Arial, Helvetica;
+    background: white;
+    border-color: black;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 100%;
+}
+.menu  li  a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu li a:hover{
+background: #ef8354;
+}
+
+.boton{
+display: block;
+width: 67px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+border-radius: 10px;
+margin: 35px 80px;
+}
+.boton li a:hover{
+    background: #ef8354;
+    }
+
+
+.boton1{
+    display: block;
+    width: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+    border-radius: 100px;
+    margin: 15px 80px;
+    background-color: rgb(34, 221, 221);
+    border-bottom: black;
+   
+    }
+    .boton1 li a:hover{
+        background: #ef8354;
+        }
+
+.sugeridos{
+    margin: 50px -700px;
+    color: black;
+    
+}
+.imagen1{
+    width: 100px;
+    height: 100px;
+    margin: 300px -50px;
+}
+.imagen2{
+    width: 100px;
+    height: 100px;
+    margin: 300px 400px;
+}
+.imagen3{
+    width: 100px;
+    height: 100px;
+    margin: 150px 1200px;
+}
+.imagen{
+    width: 160px;
+    height: 150px;
+    margin: -30px 550px;
+}
+
+.contenedor{
+    margin: -160px -200px;
+    
+}
+.contenedor1{
+    margin: -150px 550px;
+    
+}
+.contenedor2{
+    margin: -180px 200px;
+    
+}
+.contenedor3{
+    margin: -100px 500px;
+    
+}
+.contenedor4{
+    margin: -90px 500px;
+    
+}
+.boton2{
+    display: block;
+    width: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+    border-radius: 100px;
+    margin: 14px -980px;
+    background-color: rgb(34, 221, 221);
+    border-bottom: black;
+}
+.boton3{
+    display: block;
+    width: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+    border-radius: 100px;
+    margin: -40px -480px;
+    background-color: rgb(34, 221, 221);
+    border-bottom: black;
+}
+.boton4{
+    display: block;
+    width: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+    border-radius: 100px;
+    margin: 18px 10px;
+    background-color: rgb(34, 221, 221);
+    border-bottom: black;
+}

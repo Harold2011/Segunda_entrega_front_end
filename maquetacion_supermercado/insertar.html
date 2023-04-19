@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado</title>
+    <link rel="stylesheet" href="Piestilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Logo Sp.png"
+                alt="Logo">
+        </div>
+        <div class="barrabusqueda">
+            <form class="formulariodebarra" action="#" method="POST">
+                <div class="inputdebarra">
+                    <input class="" type="search" placeholder="Buscar productos">
+                    
+                </div>
+            </form>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">INICIAR SESIÓN</a></li>
+                <li><a href="">REGISTRARSE</a></li>
+                <li><a href="">CARRO DE COMPRAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="navbar">
+        <a href="#">Productos</a>
+        <a href="#">Categorías</a>
+        <a href="#">Más Vendidos</a>
+        <a href="#">Contáctenos</a>
+      </nav>
+    <div class="slider-frame" >
+        
+<form>
+    <div style="width: 50%; float: left;">
+      <label for="nombre">Nombre del producto:</label>
+      <input type="text" id="nombre" name="nombre">
+  
+      <label for="precio">Precio del producto:</label>
+      <input type="number" id="precio" name="precio">
+  
+      <label for="cantidad">Cantidad en stock:</label>
+      <input type="number" id="cantidad" name="cantidad">
+  
+      <label for="descripcion">Descripción:</label><br>
+      <textarea id="descripcion" name="descripcion"></textarea><br>
+  
+      <label for="descuento">Porcentaje de descuento:</label>
+      <input type="number" id="descuento" name="descuento">
+  
+      <label for="categoria">Categoría:</label>
+      <input type="text" id="categoria" name="categoria">
+    </div>
+  
+    <div style="width: 50%; float: right;">
+      <label for="imagen">Seleccionar imagen del producto:</label>
+      <input type="file" style="text-align:left; background-color: #ffff00;" id="imagen" name="imagen">
+      
+    </div>
+    <img src="img/aceite.JPG" style="float: right;" alt="">
+    <div style="clear: both;"></div> <!-- Limpiar el flotador -->
+    <br>
+    <button style="text-align:left; background-color: #ffff00;">Registrar Producto</button>
+  </form>
+          
+    </div>
+    
+    <footer class=" footer">
+        <div class="logo">
+            <img src="Logo Sp.png"
+                alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">Tiendas Superpoli</a></li>
+                <li><a href="">Contáctanos</a></li>
+                <li><a href="">Como Comprar</a></li>
+                <li><a href="">Atención al usuario</a></li>
+            </ul>
+        </nav>
+        <div class="contenedor-social">
+            <span>Compartir</span>
+            <div class="social-botones">
+                <a href="fa-brands fa-square-facebook"></a>
+                <a href="fa-brands fa-square-instagram"></a>
+                <a href="fa-brands fa-square-youtube"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
